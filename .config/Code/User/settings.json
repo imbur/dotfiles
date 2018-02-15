@@ -1,0 +1,34 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "window.restoreWindows": "all",
+    "clang.executable": "clang-4.0",
+    "cmake-tools-helper.cmake_download_path": "/home/marci/.vscode/extensions/maddouri.cmake-tools-helper-0.1.1/cmake_download",
+    "cmake.configureArgs": [
+        "-DCPS_QUERY_ROOT=/home/marci/git/cps-query"
+    ],
+    "editor.renderWhitespace": "none",
+    "extensions.ignoreRecommendations": false,
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "on",
+    "[cpp]": {},
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "clang-format.language.cpp.enable": true,
+    "clang.cxxflags": [
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/dcps/C++/SACPP/", 
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys/",
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/linux/"
+    ],
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.exclusionPolicy": "checkFilesAndFolders",
+    "C_Cpp.workspaceParsingPriority": "highest",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "c-cpp-flylint.flexelint.enable": false,
+    "lldb.executable": "lldb-4.0"
+}

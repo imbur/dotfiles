@@ -1,0 +1,39 @@
+{
+    
+    "version": "0.1.0",
+    "command": "bash",
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "Makefile",
+            // Make this the default build command.
+            "isBuildCommand": true,
+            "suppressTaskName": true,
+            "showOutput": "always",
+            "args": ["-c", "make all"],
+            // Use the standard less compilation problem matcher.
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceRoot}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "taskName": "add_license",
+            "isShellCommand": true,
+            // Show the output window only if unrecognized errors occur.
+            "showOutput": "always",
+            "args": ["-c", ". /home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/release.com"],
+            "suppressTaskName": true
+            
+        }
+    ]
+
+}

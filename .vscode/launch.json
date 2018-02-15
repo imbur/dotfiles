@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "logging": { "trace": true, "traceResponse": true, "engineLogging": true },
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Subscriber",
+            "program": "${workspaceRoot}/standalone/sacpp_helloworld_sub",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "add_license",
+            "env": {
+                "LD_LIBRARY_PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/lib/",
+                "ADLINK_LICENSE": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc",
+                "SPLICE_ORB": "DDS_OpenFusion_1_6_1",
+                "OSPL_HOME=": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux",
+                "VORTEX_DIR": "/home/marci/ADLINK/Vortex_v2",
+                "PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/bin:/usr/local/MATLAB/R2017a/bin/glnxa64:/home/marci/bin:/home/marci/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/marci/egyetem/gamma/uppaal-4.0.14/bin-Linux:/home/marci/bin/apache-maven-3.5.2/bin:/home/marci/bin/gcc-arm-none-eabi-5_4-2016q3/bin:/home/marci/egyetem/gamma/uppaal-4.0.14/bin-Linux:/home/marci/bin/apache-maven-3.5.2/bin:/home/marci/bin/gcc-arm-none-eabi-5_4-2016q3/bin",
+                "CPATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include:/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys",
+                "OSPL_URI": "file:///home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc/config/ospl.xml",
+                "OSPL_TMPL_PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc/idlpp"
+            }
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Publisher",
+            "program": "${workspaceRoot}/standalone/sacpp_helloworld_pub",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "add_license",
+            "env": {
+                "LD_LIBRARY_PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/lib/",
+                "ADLINK_LICENSE": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc",
+                "SPLICE_ORB": "DDS_OpenFusion_1_6_1",
+                "OSPL_HOME=": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux",
+                "VORTEX_DIR": "/home/marci/ADLINK/Vortex_v2",
+                "PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/bin:/usr/local/MATLAB/R2017a/bin/glnxa64:/home/marci/bin:/home/marci/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/marci/egyetem/gamma/uppaal-4.0.14/bin-Linux:/home/marci/bin/apache-maven-3.5.2/bin:/home/marci/bin/gcc-arm-none-eabi-5_4-2016q3/bin:/home/marci/egyetem/gamma/uppaal-4.0.14/bin-Linux:/home/marci/bin/apache-maven-3.5.2/bin:/home/marci/bin/gcc-arm-none-eabi-5_4-2016q3/bin",
+                "CPATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include:/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys",
+                "OSPL_URI": "file:///home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc/config/ospl.xml",
+                "OSPL_TMPL_PATH": "/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/etc/idlpp"
+            }
+        }
+    ]
+}
