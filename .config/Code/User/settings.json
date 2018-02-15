@@ -30,5 +30,10 @@
     "C_Cpp.clang_format_sortIncludes": true,
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "c-cpp-flylint.flexelint.enable": false,
-    "lldb.executable": "lldb-4.0"
+    "lldb.executable": "lldb-4.0",
+    "c-cpp-flylint.cppcheck.force": true,
+    "c-cpp-flylint.standard": [
+        "c11",
+        "c++11"
+    ]
 }
