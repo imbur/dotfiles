@@ -19,11 +19,6 @@
     "editor.minimap.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "clang-format.language.cpp.enable": true,
-    "clang.cxxflags": [
-        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/dcps/C++/SACPP/", 
-        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys/",
-        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/linux/"
-    ],
     "C_Cpp.errorSquiggles": "Disabled",
     "C_Cpp.exclusionPolicy": "checkFilesAndFolders",
     "C_Cpp.workspaceParsingPriority": "highest",

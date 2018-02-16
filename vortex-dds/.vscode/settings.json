@@ -1,0 +1,7 @@
+{
+    "clang.cxxflags": [
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/dcps/C++/SACPP/", 
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys/",
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/linux/"
+    ],
+}
