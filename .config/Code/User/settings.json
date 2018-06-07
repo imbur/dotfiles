@@ -6,9 +6,6 @@
     "window.restoreWindows": "all",
     "clang.executable": "clang-4.0",
     "cmake-tools-helper.cmake_download_path": "/home/marci/.vscode/extensions/maddouri.cmake-tools-helper-0.1.1/cmake_download",
-    "cmake.configureArgs": [
-        "-DCPS_QUERY_ROOT=/home/marci/git/cps-query"
-    ],
     "editor.renderWhitespace": "none",
     "extensions.ignoreRecommendations": false,
     "window.zoomLevel": 0,
@@ -30,5 +27,19 @@
     "c-cpp-flylint.standard": [
         "c11",
         "c++11"
-    ]
+    ],
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "zenMode.centerLayout": false,
+    "zenMode.hideTabs": false,
+    "gitlens.historyExplorer.enabled": true
 }
