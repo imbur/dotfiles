@@ -1,7 +1,14 @@
 {
     "clang.cxxflags": [
+        "-I/home/marci/git/cps-query/library-cpp/Viatra/install/include/",
         "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/dcps/C++/SACPP/", 
         "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/sys/",
-        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/linux/"
+        "-I/home/marci/ADLINK/Vortex_v2/Device/VortexOpenSplice/6.8.3/HDE/x86_64.linux/include/linux/",
     ],
+    "cmake.configureArgs": [
+        "-DCPS_QUERY_ROOT=/home/marci/git/cps-query"
+    ],
+    "c-cpp-flylint.clang.includePaths": [
+        "/home/marci/git/cps-query/library-cpp/Viatra/install/include"
+    ]
 }
